@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Ad</th>
+          <th>Soyad</th>
+          <th>Gmail</th>
+          <th>Sil</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- <td><span id="tb_name"></span></td>
+          <td><span id="tb_surname"></span></td>
+          <td><span id="tb_email"></span></td> -->
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="namearea">
+      <input
+        type="text"
+        class="form-control user_info"
+        style="width: 20%"
+        id="name"
+      />
+      <div id="message1"></div>
+    </div>
+
+    <input
+      type="text"
+      class="form-control user_info"
+      style="width: 20%"
+      id="surname"
+    />
+    <div id="message2"></div>
+
+    <input
+      type="email"
+      class="form-control user_info"
+      style="width: 20%"
+      id="email"
+    />
+    <div id="message3"></div>
+
+    <button class="add">clik me</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
